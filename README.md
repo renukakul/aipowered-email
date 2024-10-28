@@ -27,3 +27,43 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 ## How do I deploy this?
 
 Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+
+# AI-Powered Email Project
+
+## Overview
+
+This project is designed to leverage modern technologies to create an AI-powered email application. The initial setup has been completed, incorporating the T3 Stack and `shadcn-ui` for a robust development experience.
+
+## Tech Stack
+
+### T3 Stack
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **Prisma**: An ORM that simplifies database access and manipulation.
+- **Tailwind CSS**: A utility-first CSS framework for styling components.
+- **tRPC**: A framework for building typesafe APIs.
+
+### shadcn-ui
+- Integrated `shadcn-ui` for a streamlined component library, enhancing UI development with pre-built components and styles.
+
+## Current Status
+
+- The default configuration for the T3 Stack has been successfully initialized.
+- `shadcn-ui` has been added, and the basic setup is complete.
+- The project is ready for further development, including feature implementation and styling enhancements.
+
+## Next Steps
+
+As we move forward, we will:
+1. Develop additional features for the AI-powered functionality.
+2. Customize and extend the component library as needed.
+3. Implement user authentication and database integration using Prisma.
+
+## Getting Started
+
+To get started with the project, clone the repository and install the dependencies:
+
+```bash
+git clone <repository-url>
+cd aipowered-email
+npm install
