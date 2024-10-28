@@ -48,6 +48,15 @@ This project is designed to leverage modern technologies to create an AI-powered
 ### Clerk
 - Added Clerk for user authentication and management, enabling secure sign-up, sign-in, and session management.
 
+# Database Configuration with Prisma
+
+Prisma has been configured to manage database interactions. To set up your database, follow these steps:
+
+1. **Install Prisma**: Ensure you have Prisma installed in your project. If not, run the following command:
+
+   ```bash
+   npm install @prisma/client prisma --save-dev
+   
 ## Setup Instructions
 
 To get started with the project, clone the repository and install the dependencies:
