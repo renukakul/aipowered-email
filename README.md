@@ -26,14 +26,13 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 
 ## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
-
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify), and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
 
 # AI-Powered Email Project
 
 ## Overview
 
-This project is designed to leverage modern technologies to create an AI-powered email application. The initial setup has been completed, incorporating the T3 Stack and `shadcn-ui` for a robust development experience.
+This project is designed to leverage modern technologies to create an AI-powered email application. The initial setup has been completed, incorporating the T3 Stack and `shadcn-ui` for a robust development experience. Recently, authentication has been added using [Clerk](https://clerk.dev), enhancing user management and security.
 
 ## Tech Stack
 
@@ -46,7 +45,12 @@ This project is designed to leverage modern technologies to create an AI-powered
 ### shadcn-ui
 - Integrated `shadcn-ui` for a streamlined component library, enhancing UI development with pre-built components and styles.
 
+### Clerk
+- Added Clerk for user authentication and management, enabling secure sign-up, sign-in, and session management.
 
+## Setup Instructions
+
+To get started with the project, clone the repository and install the dependencies:
 
 ```bash
 git clone <repository-url>
