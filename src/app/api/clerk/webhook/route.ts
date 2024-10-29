@@ -1,6 +1,8 @@
 // /api/clerk/webhook
 
-import { db } from "/Users/renukakulkarni/Work/aipowered-email/src/server/db.ts"
+import { db } from "~/server/db"
+
+
 
 export const POST = async(req: Request) => {
     const { data } = await req.json()
