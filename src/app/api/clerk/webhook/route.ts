@@ -1,6 +1,6 @@
 // /api/clerk/webhook
 
-import { db } from "~/server/db"
+import { db } from "src/server/db"
 
 
 
