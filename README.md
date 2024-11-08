@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# aipowered-email
-=======
 # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
@@ -29,5 +26,42 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 
 ## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
->>>>>>> Initial t3 app commit
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify), and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+
+# AI-Powered Email Project
+
+## Overview
+
+This project is designed to leverage modern technologies to create an AI-powered email application. The initial setup has been completed, incorporating the T3 Stack and `shadcn-ui` for a robust development experience. Recently, authentication has been added using [Clerk](https://clerk.dev), enhancing user management and security.
+
+## Tech Stack
+
+### T3 Stack
+- **Next.js**: A React framework for server-side rendering and static site generation.
+- **Prisma**: An ORM that simplifies database access and manipulation.
+- **Tailwind CSS**: A utility-first CSS framework for styling components.
+- **tRPC**: A framework for building typesafe APIs.
+
+### shadcn-ui
+- Integrated `shadcn-ui` for a streamlined component library, enhancing UI development with pre-built components and styles.
+
+### Clerk
+- Added Clerk for user authentication and management, enabling secure sign-up, sign-in, and session management.
+
+# Database Configuration with Prisma
+
+Prisma has been configured to manage database interactions. To set up your database, follow these steps:
+
+1. **Install Prisma**: Ensure you have Prisma installed in your project. If not, run the following command:
+
+   ```bash
+   npm install @prisma/client prisma --save-dev
+   
+## Setup Instructions
+
+To get started with the project, clone the repository and install the dependencies:
+
+```bash
+git clone <repository-url>
+cd aipowered-email
+npm install
